@@ -1,9 +1,5 @@
-SELECT
-    user_id,
-    name,
-    mail
-FROM Users
-WHERE mail REGEXP '^[a-zA-Z][a-zA-Z0-9_.-]*@leetcode\\.com$'
-  AND mail LIKE BINARY '%@leetcode.com';
-
+select user_id,name,mail
+from users
+where mail regexp '^[a-zA-Z][a-zA-Z0-9_.-]*@leetcode\\.com$'
+and mail like binary '%@leetcode.com'
 
