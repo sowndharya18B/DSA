@@ -13,3 +13,6 @@ class Solution {
       return count;
     }
 }
+
+// ch-'a'+'A' = 'c' - 'a' = 2
+//               2 + 'A' = 'C'
